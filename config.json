@@ -1,0 +1,19 @@
+{
+  "api_keys": {
+    "openai": "your-api-key"
+  },
+  "llm_providers": {
+    "openai": {
+      "api_key": "your-api-key",
+      "model": "gpt-4.1",
+      "max_tokens": 2048,
+      "temperature": 0.3
+    }
+  },
+  "llm_settings": {
+    "default_provider": "openai",
+    "fallback_chain": ["openai"],
+    "enable_monitoring": true,
+    "enable_caching": false
+  }
+}
